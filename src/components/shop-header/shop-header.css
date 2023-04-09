@@ -21,19 +21,28 @@
     align-self: center;
     font-size: 1.3rem;
     color: black;
-    padding-left: 46rem;
+    padding-left: 44rem;
     text-decoration: none;
 }
 
 .shop-header .shopping-icon {
     font-size: 3.5rem;
-    color: #2617b1;
+    
     margin-right: 20px;
     align-self: center;
-    padding-bottom: 0.7rem;
+    padding-bottom: 0.9rem;
     transform: scale(1.5);
 }
 
 .shop-header .shopping-icon:hover{
     color: #0a0539;
+}
+
+.shop-header .menu-book {
+    font-size: large;
+    padding-top: 0.9em;
+}
+
+.shop-header .menu-book:hover {
+    color: #3829c0;
 }

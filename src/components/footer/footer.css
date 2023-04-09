@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Mulish:wght@400;900&display=swap');
+
+.shop-footer {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 5rem;
+}
+
+.footertext {
+    animation: typing 5s infinite steps(17, end);
+    overflow: hidden;
+    white-space: nowrap;
+    color: rgb(12, 12, 12);
+    font-size: 1.7rem;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+#email {
+    background-color: transparent;
+        font-size: 15px;
+        margin-top: 2em;
+        border: none;
+        width: 17%;
+}
+
+#subscribe {
+    background-color: #252530;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    height: 45px;
+    width: 12%;
+    margin-left: 5px;
+}
+
+#subscribe:hover {
+    background-color: rgb(97, 155, 191);
+}
+
+.footer_list li {
+    display: inline-block;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+footer ul {
+margin-top: 5rem;
+margin-left: 30rem;
+}
+
+footer li::after {
+    content: "";
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    transform: translateY(-1em);
+    opacity: 0;
+    background-color: orange;
+    display: inline-block;
+}
+
+footer li:hover::after {
+    opacity: 1;
+}
+
+footer li:first-child::after {
+    opacity: 1;
+}
+
+
