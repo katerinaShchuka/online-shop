@@ -1,0 +1,49 @@
+
+
+.shopping-cart-table td {
+    padding: 1rem;
+}
+
+.shopping-cart-table .total {
+    text-align: right;
+    font-size: 1.3rem;
+    margin-right: 11rem;
+
+}
+
+.shopping-cart-table .btn1 {
+    margin-right: 0.5rem;
+    padding: 0;
+    border-color: rgb(7, 102, 35);
+    border-radius: 5px;
+    background-color: rgb(199, 223, 198);
+
+}
+
+.shopping-cart-table .btn1:hover{
+    background-color: rgb(64, 144, 64);
+}
+
+.shopping-cart-table .btn3 {
+    margin-right: 0.5rem;
+    padding: 0;
+    border-color: rgb(185, 180, 34);
+    border-radius: 5px;
+    background-color: rgb(226, 226, 200);
+}
+
+.shopping-cart-table .btn3:hover {
+    background-color: rgb(192, 199, 117);
+}
+
+
+.shopping-cart-table .btn2 {
+    padding: 0;
+    border-color: rgb(208, 60, 47);
+    border-radius: 5px;
+    background-color: rgb(222, 199, 199);
+}
+
+.shopping-cart-table .btn2:hover {
+    background-color: rgb(143, 78, 78);
+}
