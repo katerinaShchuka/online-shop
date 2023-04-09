@@ -62,10 +62,6 @@ const ShoppingCartTable = ({ items, total, onIncrease, onDecrease, onDelete }) =
             </tbody>   
              </table>
 
-        
-            <div className="total">
-                Total: ${total}
-            </div>
         </div>
                     )
          }
