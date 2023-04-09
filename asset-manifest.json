@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github.io/online-shop/static/css/main.ba0e8620.css",
+    "main.js": "/github.io/online-shop/static/js/main.4294a496.js",
+    "index.html": "/github.io/online-shop/index.html",
+    "main.ba0e8620.css.map": "/github.io/online-shop/static/css/main.ba0e8620.css.map",
+    "main.4294a496.js.map": "/github.io/online-shop/static/js/main.4294a496.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba0e8620.css",
+    "static/js/main.4294a496.js"
+  ]
+}
