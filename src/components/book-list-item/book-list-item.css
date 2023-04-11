@@ -30,6 +30,6 @@
     font-size: 1.6rem;
 }
 
-button {
+.book-list-item button {
     width: 240px;
 }
